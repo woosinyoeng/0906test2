@@ -74,6 +74,8 @@ html,body{font-family: "Lexend", sans-serif, "IBM Plex Sans KR" , sans-serif; co
 .box5 .inner>img:nth-child(3){margin-bottom: 40px;}
 .box5 .inner:hover{transform: scale(1.03);background-color: #afcaff4d !important; opacity: 1;}
 .box5 .button{display: flex; justify-content: center; align-items: center; padding-top: 40px;}
+.bg_img{position: absolute; top: 100%; right: 0; transition: all 0.5s;}
+.box5 .inner:hover .bg_img{position: absolute; top: -45%; right: 0;}
 
 
 /*box6*/
